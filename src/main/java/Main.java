@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 public class Main {
 
     public static void main(String[] args) {
+        System.setProperty("spring.profiles.default","pro");
         SpringApplication.run(ApplicationConfigPro.class,args);
     }
 }
